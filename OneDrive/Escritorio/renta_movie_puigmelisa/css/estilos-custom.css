@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(241, 236, 245);
+    }
+
+    h1{
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color-scheme: rgb(0, 187, 255);
+    }
+    h2{
+         text-align: center;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    h3{
+      text-align: center;
+    }
+
+   h5{
+     text-align: center;  
+     font-size: 50%;
+   }
+.container{
+    background-color: rgb(241, 236, 245);
+    border-radius: 3%;
+}
+   .card{
+       background-color: blueviolet;
+       size-adjust: 50%;
+   }
+   .card_text{
+       font-size: smaller;
+       font-family: 'Courier New', Courier, monospace;
+    }
+    .mb-3{
+      margin: 1rem;  
+    }
+    .btn-outline-primary{
+margin-left: 90%;
+    }
+
+/* footer */ 
+
+   .container__titulo{
+       font-size: 85%;
+       text-align: center;
+   }
+
+ #redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto auto;
+    text-align: center;
+    width: 100%;
+    max-width: 45rem;
+ }
